@@ -14,6 +14,8 @@
 		CA7798112BFE2A4E00EBC29B /* SoundBar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA77980F2BFE2A4E00EBC29B /* SoundBar.xcdatamodeld */; };
 		CA7798132BFE2A5000EBC29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7798122BFE2A5000EBC29B /* Assets.xcassets */; };
 		CA7798162BFE2A5000EBC29B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7798142BFE2A5000EBC29B /* LaunchScreen.storyboard */; };
+		CA77981E2BFE2F9D00EBC29B /* reproducir.png in Resources */ = {isa = PBXBuildFile; fileRef = CA77981D2BFE2F9C00EBC29B /* reproducir.png */; };
+		CA7798202BFE34BF00EBC29B /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77981F2BFE34BF00EBC29B /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		CA7798122BFE2A5000EBC29B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA7798152BFE2A5000EBC29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA7798172BFE2A5000EBC29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA77981D2BFE2F9C00EBC29B /* reproducir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reproducir.png; path = Assets.xcassets/reproducir.png; sourceTree = "<group>"; };
+		CA77981F2BFE34BF00EBC29B /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +68,10 @@
 				CA77980C2BFE2A4E00EBC29B /* Main.storyboard */,
 				CA7798122BFE2A5000EBC29B /* Assets.xcassets */,
 				CA7798142BFE2A5000EBC29B /* LaunchScreen.storyboard */,
+				CA77981D2BFE2F9C00EBC29B /* reproducir.png */,
 				CA7798172BFE2A5000EBC29B /* Info.plist */,
 				CA77980F2BFE2A4E00EBC29B /* SoundBar.xcdatamodeld */,
+				CA77981F2BFE34BF00EBC29B /* SoundViewController.swift */,
 			);
 			path = SoundBar;
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA77981E2BFE2F9D00EBC29B /* reproducir.png in Resources */,
 				CA7798162BFE2A5000EBC29B /* LaunchScreen.storyboard in Resources */,
 				CA7798132BFE2A5000EBC29B /* Assets.xcassets in Resources */,
 				CA77980E2BFE2A4E00EBC29B /* Main.storyboard in Resources */,
@@ -145,6 +152,7 @@
 				CA7798072BFE2A4E00EBC29B /* AppDelegate.swift in Sources */,
 				CA7798092BFE2A4E00EBC29B /* SceneDelegate.swift in Sources */,
 				CA7798112BFE2A4E00EBC29B /* SoundBar.xcdatamodeld in Sources */,
+				CA7798202BFE34BF00EBC29B /* SoundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
